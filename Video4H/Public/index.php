@@ -73,6 +73,26 @@ echo "Variável 2 = $nome2";
 
 echo '<br><br>Parte 3: Constantes<br>';
 
-define();
+define('NAME', 'Jonathan');
+echo NAME, "<br><br>";
+
+if(defined('NAME')){echo 'Essa constante já existe: ', NAME, '<br><br>';} 
+
+function teste(){
+    echo __function__;
+    echo __METHOD__;
+    echo '<br>';
+}
+
+teste();
+echo '<br>';
+
+echo DIRECTORY_SEPARATOR, "<br>";
+
+// $cons = get_defined_constants(true); // "get_defined_constants(true)" pega todas as constantes do PHP
+
+// var_dump($cons); // Pega o conteúdo de uma variável e imprime
+
+echo '<br>Parte 4: <br>';
 
 ?>
