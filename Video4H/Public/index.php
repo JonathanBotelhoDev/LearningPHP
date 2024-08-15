@@ -93,6 +93,15 @@ echo DIRECTORY_SEPARATOR, "<br>";
 
 // var_dump($cons); // Pega o conteúdo de uma variável e imprime
 
-echo '<br>Parte 4: <br>';
+echo '<br>Parte 4: Operadores<br>';
+echo '<br>Operadores Aritméticos<br>';
+
+echo '<br>Operadores Atribuição<br>';
+
+echo '<br>Operadores Comparação<br>';
+
+echo '<br>Operadores Lógicos<br>';
+
+echo '<br>Parte 5: <br>';
 
 ?>
